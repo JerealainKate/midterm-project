@@ -1,4 +1,3 @@
-
 ELGAMO-MIDTERM PROJECT
 
 Features Implemented
