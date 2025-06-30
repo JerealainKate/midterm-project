@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: auto;
+    font-family: "Inter", sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    background-image: url(crumpled\ paper\ background.jpg);
+    background-size: cover;
+}
+
+.logo {
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav.side-nav {
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+nav.side-nav a,
+.social a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav.side-nav a:hover {
+    color: #d4a5ff;
+}
+  
+.social {
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    display: flex;
+    gap: 25px;
+    z-index: 999;
+}
+
+.social a {
+    font-size: 30px;
+}
+
+.social a:hover {
+    color: white;
+}
+
+main {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.home {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.first-name {
+    font-size: 250px;
+    font-weight: 600;
+    line-height: 0.10;
+}
+
+.last-line {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin-left: 540px;
+}
+
+.second-name {
+    font-size: 250px;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 414px;
+}
+
+.profession {
+    font-size: 36px;
+    vertical-align: super;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.about,
+.contact {
+    min-height: 100vh;
+    padding: 200px 100px;
+    display: block;
+    align-items: center;
+}
+
+.about {
+    background-color: rgba(102, 50, 133, 0.726);
+}
+
+.content {
+    display: flex;
+    gap: 0;
+    width: 100%;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line,
+.second-line {
+    font-size: 150px;
+    font-weight: 600;
+    color: white;
+}
+
+.first-line {
+    margin-left: 135px;
+    line-height: 0.25;
+}
+
+.content-right {
+    flex: 1;
+    margin-top: 200px;
+}
+
+.about-text {
+    margin-left: 50px;
+    font-size: 22px;
+    line-height: 1.8;
+    text-align: left;
+    font-weight: 500;
+}
+
+.text {
+    margin-top: 60px;
+}
+
+.text h3 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.subsection {
+    margin-bottom: 30px;
+}
+
+.subsection h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    opacity: 50%;
+    color: white;
+}
+
+.subsection p {
+    font-size: 20px;
+    line-height: 1;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.art-section {
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.art-section h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-weight: bold;
+    margin: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+.art-section h2 em {
+    color: white;
+}
+
+.art-section img {
+    width: 100%;
+    max-width: 800px;
+    opacity: 50%;
+}
+
+.art-content.traditional,
+.art-content.digital,
+.art-content.animation,
+.art-content.three-d {
+    position: relative;
+}
+
+.art-content.traditional h2 {
+    right: 30%;
+}
+.art-content.traditional {
+    margin-right: 600px;
+}
+
+.art-content.digital h2 {
+    left: 30%;
+}
+.art-content.digital {
+    margin-left: 300px;
+}
+
+.art-content.animation h2 {
+    right: 30%;
+}
+.art-content.animation {
+    margin-left: 400px;
+}
+
+.art-content.three-d h2 {
+    right: 50%;
+}
+.art-content.three-d {
+    margin-right: 700px;
+}
+
+.contact .first-line,
+.contact .second-line,
+.contact .text h3,
+.contact .subsection h4 {
+    color: black;
+}
+
+  
